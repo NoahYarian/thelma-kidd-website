@@ -29,6 +29,41 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/about-coaching', {
+        templateUrl: 'views/about-coaching.html',
+        controller: 'AboutCoachingCtrl',
+        controllerAs: 'aboutCoaching'
+      })
+      .when('/workshops', {
+        templateUrl: 'views/workshops.html',
+        controller: 'WorkshopsCtrl',
+        controllerAs: 'workshops'
+      })
+      .when('/testimonials', {
+        templateUrl: 'views/testimonials.html',
+        controller: 'TestimonialsCtrl',
+        controllerAs: 'testimonials'
+      })
+      .when('/news', {
+        templateUrl: 'views/news.html',
+        controller: 'NewsCtrl',
+        controllerAs: 'news'
+      })
+      .when('/reading', {
+        templateUrl: 'views/reading.html',
+        controller: 'ReadingCtrl',
+        controllerAs: 'reading'
+      })
+      .when('/about-thelma', {
+        templateUrl: 'views/about-thelma.html',
+        controller: 'AboutThelmaCtrl',
+        controllerAs: 'aboutThelma'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
+      })
       .otherwise({
         redirectTo: '/'
       });
